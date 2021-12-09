@@ -101,6 +101,7 @@ input, select {
     vertical-align:middle;
 }
 
+/* Here starts my code */
 h1 {
     color: red;
     background-color: black;
@@ -121,7 +122,6 @@ h1 {
 .index-intro p {
     color: cadetblue;
 }
-
 .center {
     display: block;
     margin-left: auto;
