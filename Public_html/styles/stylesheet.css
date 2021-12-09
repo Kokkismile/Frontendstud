@@ -117,3 +117,14 @@ h1 {
     font-style: bold;
     padding: 10px;
 }
+
+.index-intro p {
+    color: cadetblue;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:  50%;
+}
