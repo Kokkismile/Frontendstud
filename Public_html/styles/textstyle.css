@@ -110,3 +110,10 @@ h1 {
     margin: 0px;
     padding: 10px;
 }
+
+.style1 {
+    color: white;
+    background-color: black;
+    font-style: bold;
+    padding: 10px;
+}
