@@ -139,3 +139,9 @@ h1 {
     height: 100px;
     background-color: rgb(247, 0, 255);
 }
+
+#h2 {
+    color: rgb(56, 56, 56);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15;
+}
