@@ -114,13 +114,14 @@ h1 {
 
 .style1 {
     color: white;
-    background-color: black;
+    background-color: rgb(124, 121, 121);
     font-style: bold;
     padding: 10px;
 }
 
 .index-intro p {
-    color: cadetblue;
+    color: rgb(255, 255, 255);
+    background-color: rgb(124, 121, 121);
 }
 .center {
     display: block;
