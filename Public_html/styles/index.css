@@ -4,6 +4,7 @@
     height: 20px;
     width: 100%;
     text-align:center;
+    background-color: black;
 }
 
 ul#horizontal-list {
@@ -11,6 +12,7 @@ ul#horizontal-list {
     list-style: none;
     padding-top: 20px;
     margin-right: 50%;
+    background-color: black;
 }
 
 ul#horizontal-list li {
