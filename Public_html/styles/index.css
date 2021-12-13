@@ -1,0 +1,12 @@
+.topnav {
+    position: fixed;
+    top: 0%;
+    height: 20px;
+    width: 100%;
+    text-align:center
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
