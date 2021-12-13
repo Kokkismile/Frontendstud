@@ -3,7 +3,19 @@
     top: 0%;
     height: 20px;
     width: 100%;
-    text-align:center
+    text-align:center;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+    margin-right: 50%;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    padding-left: 10px;
 }
 
 h1 {
