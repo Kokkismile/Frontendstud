@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'open-sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
 body {
     background-color: #16161a;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'open-sans'
 }
 
 .topnav {
