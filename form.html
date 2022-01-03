@@ -8,7 +8,7 @@
     <title>GameHub</title>
     <link href="Public_html/fonts/Lovelo/webkit/fonts.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" href="Public_html/styles/index.css">  
-    <link href="public_html/styles/form.css" rel="stylesheet-form">
+    <link href="Public_html/styles/form.css" rel="stylesheet"/>
     
      
 </head>
@@ -30,21 +30,24 @@
     </header>
 
     <main>
-        <form action="form-success.php">
-            <!--action sets where we send the data-->
+        <form action="form-success.php" method="">
+        <!--action sets where we send the data. 
+        method decides how we are sending the data (GET/POST)
+        POST can send more data and is more secure, GET is usefull
+        to see the data sent by the form-->
             <fieldset>
                 <legend>Personalia</legend>
                 <label for="name">Your first name</label>
-                <input type="text" name="firstname" id="name" class="form">
+                <input type="text" name="firstname" id="name" class="form-input">
                 <label for="name">Your last name</label>
-                <input type="text" name="lastname" id="name" class="form">                  
+                <input type="text" name="lastname" id="name" class="form-input">                  
             </fieldset>
             <fieldset>
                 <legend>Payment</legend>
                 <label for="number">Card number</label>
-                <input type="text" number="Cardnumber" class="form">
+                <input type="text" number="Cardnumber" class="form-input">
                 <label for="CVC">CVC</label>
-                <input type="text" CVC="CVC" class="form">
+                <input type="text" CVC="CVC" class="form-input">
 
                 <select name="payment-method">
                     <option value="visa">VISA</option>
