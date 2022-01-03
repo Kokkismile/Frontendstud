@@ -54,18 +54,42 @@ p {
 
 .welcomebox_one {
 
+    order: 1;
+    float: left;
     background-image: url('../images/pexels-photo-2047905.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: white;
-    height: 1000px;
-    width: 600px;
+    background-color: rgb(0, 0, 0);
+    max-width: 800px;
+    text-align: center;
+    /*margin-right: auto;*/
 }
 
 .welcomebox_two {
+
+    order: 2;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #707070;
+    max-width: 800px;
     text-align: center;
+    /*margin-left: auto; */
+}
+
+.box-wrapper {
+
+display: flex;
+flex-wrap: wrap;
+height: 830px;
+margin-top: 100px;
+}
+
+.box-wrapper > div {
+
+    line-height: 100px;
+}
+
+i {
     color: white;
-    position: relative;
-    top: 11%;
-    left: 5%;
 }
