@@ -32,13 +32,14 @@ ul#horizontal-list {
 ul#horizontal-list li {
     display: inline;
     padding-left: 10px;
-    font-family: Arial;
+    font-family: arial;
 }
 
 h1 {
     margin-top: 100px;
     margin-bottom: 50px;
     color: white;
+    font-family: 'open-sans';
 }
 
 /*anchor tag*/
@@ -52,15 +53,13 @@ p {
 }
 
 .welcomebox_one {
- 
-    position: right;
-    border: white;
-    border: solid;
-    position:absolute;
-    top: 11%;
-    left: 27%;
-    bottom: 100%;
-    transform: translate(-50%, -50%);
+
+    background-image: url('../images/pexels-photo-2047905.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 1000px;
+    width: 600px;
 }
 
 .welcomebox_two {
