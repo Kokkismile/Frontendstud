@@ -109,7 +109,7 @@ p {
 }
 
 .box-wrapper {
-/* overflow make it so that the parent wont be affected by the float./*/
+/* overflow make it so that the parent wont be affected by the floating children./*/
 
 overflow: auto; 
 margin-top: 10px;
