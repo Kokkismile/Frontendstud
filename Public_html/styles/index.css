@@ -3,6 +3,16 @@
     src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 }
 
+/* apply a natural box layout model to all elements, but allowing components to change
+ https://www.paulirish.com/2012/box-sizing-border-box-ftw /*/
+ 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
     background-color: #16161a;
     font-family:'open-sans'
@@ -70,14 +80,13 @@ p {
 
     order: 1;
     background-size: cover;
-    background-repeat: no-repeat;
     background-image: url('../images/pexels-photo-2047905.jpeg');
     text-align: center;
     width: 440px;
     height: 600px;
-    margin-right: auto;
-    border: solid;
-    border-color: springgreen;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid springgreen;
     float: left;
 
     /*margin-right: auto;/*/
@@ -87,14 +96,13 @@ p {
 
     order: 2;
     background-size: cover;
-    background-repeat: no-repeat;
     background-color: #707070;
     text-align: left;
     width: 440px;
     height: 600px;
-    margin-left: auto;
-    border: solid;
-    border-color: springgreen;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid springgreen;
     float: right;
 
     /*margin-left: auto;/*/
@@ -105,8 +113,7 @@ p {
 overflow: auto; 
 margin-top: auto;
 padding: 10px;
-border: solid;
-border-color: #dbf548;
+border: solid 1px #dbf548;
 background-color: #0b0b0d;
 
 }
