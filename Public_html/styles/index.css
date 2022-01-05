@@ -113,7 +113,7 @@ p {
 
 overflow: auto; 
 margin-top: 10px;
-border: solid 1px #dbf548;
+border: solid 1px;
 background-color: #0b0b0d;
 
 }
