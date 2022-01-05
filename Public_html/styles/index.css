@@ -23,13 +23,13 @@ nav li:hover {
 
 ul#horizontal-list {
     position: relative;
-    min-width: 696px;
+    max-width: 696px;
     list-style: none;
 }
 
 ul#horizontal-list li {
     display: inline;
-    padding-left: 10px;
+    padding: 10px;
     font-family: arial;
     position: relative;
     top: -50px;
@@ -49,6 +49,13 @@ h1 {
     font-family: 'open-sans';
 }
 
+h2 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'open-sans';
+}
+
 /*anchor tag*/
 a {
     color: white;
@@ -62,41 +69,54 @@ p {
 .welcomebox_one {
 
     order: 1;
-    display: inline;
-    position: relative;
-    left: -70px;
-    background-image: url('../images/pexels-photo-2047905.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgb(0, 0, 0);
+    background-image: url('../images/pexels-photo-2047905.jpeg');
     text-align: center;
+    width: 440px;
+    height: 600px;
     margin-right: auto;
+    border: solid;
+    border-color: springgreen;
+    float: left;
+
+    /*margin-right: auto;/*/
 }
 
 .welcomebox_two {
 
     order: 2;
-    display: inline;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #707070;
-    text-align: center;
+    text-align: left;
+    width: 440px;
+    height: 600px;
     margin-left: auto;
+    border: solid;
+    border-color: springgreen;
+    float: right;
+
+    /*margin-left: auto;/*/
 }
 
 .box-wrapper {
+/* overflow make it so that the parent wont be affected by the float./*/
+overflow: auto; 
+margin-top: auto;
+padding: 10px;
+border: solid;
+border-color: #dbf548;
+background-color: #0b0b0d;
 
-display: flex;
-flex-wrap: wrap;
-height: 830px;
-margin-top: 100px;
 }
 
+/*
 .box-wrapper > div {
 
     line-height: 100px;
 }
-
+/*/
 i {
     color: white;
 }
