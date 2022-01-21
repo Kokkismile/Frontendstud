@@ -2,3 +2,9 @@
     font-family: Gotic-sans, times, verdana, arial, 'Bowlby One SC', cursive;
     src: url();
 }
+
+header {
+    background-image: url(/Public_html/images/testimg/pexels-photo.jpg);
+    background-repeat: no-repeat;
+    contain: content;
+}
