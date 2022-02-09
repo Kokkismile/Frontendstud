@@ -3,8 +3,13 @@
     src: url();
 }
 
+:root {
+    margin: 0;
+    padding: 0;
+}
+
 header {
-    background-image: url(/Public_html/images/testimg/pexels-photo.jpg);
+    background-color: #00337E;
     background-repeat: no-repeat;
     contain: content;
 }
@@ -13,3 +18,80 @@ header {
     max-width: 600px;
     margin: 0 auto;
 }
+
+h1 {
+    font-family: 'loos-normal', helvetica, arial;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Gill Sans MT', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Gill Sans MT', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+}
+
+.emphasize-text {
+    display: block;
+    font-size: 1.5em;
+    padding-top: 0.2em;
+}
+
+.header-white {
+    color: white;
+}
+
+.header-blue {
+    color: #00337e;
+}
+
+.home-container1 {
+    background-image: url(/Public_html/images/content/museum-hall.png);
+    background-repeat: no-repeat;
+}
+
+.home-box1, .home-box2, .home-box3 {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+
+.home-box2 {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+.home-box3-content-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-img {
+    height: auto;
+    width: 100%;
+}
+
+.button1 {
+    background-color: #00337E;
+    color: white;
+    border-radius: 25px;
+    padding: 0.5em 1em;
+}
+
+@media (min-width: 1000px) {
+    .home-container1 {
+        display: flex;
+    }}
