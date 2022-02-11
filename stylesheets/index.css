@@ -26,37 +26,42 @@ h1 {
 }
 
 h2 {
-    font-family: 'Gill Sans MT', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-weight: 600;
+    font-family: 'loos-normal', helvetica, arial;
+    font-weight: 500;
+    font-style: normal;
 }
 
 h3 {
     font-family: 'Gill Sans MT', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
 }
 
 p {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    font-size: 1em;
+    font-family: 'transducer', sans-serif;
+    font-weight: 400;
 }
 
 .emphasize-text {
+    font-family: 'loos-normal', sans-serif;
+    font-weight: 500;
+    font-style: normal;
     display: block;
     font-size: 1.5em;
     padding-top: 0.2em;
 }
 
-.header-white {
-    color: white;
-}
-
-.header-blue {
+.h-two-fonts-blue {
+    font-family: 'transducer', sans-serif;
+    font-weight: 400;
     color: #00337e;
 }
 
+#home-box2-p {
+    font-size: 1.4em;
+}
+
 .home-container1 {
-    background-image: url(/Public_html/images/content/museum-hall.png);
+    background-image: url(/images/background/museum-hall.jpg);
     background-repeat: no-repeat;
 }
 
@@ -86,9 +91,13 @@ p {
 
 .button1 {
     background-color: #00337E;
+    font-family: 'loos-normal', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
     color: white;
-    border-radius: 25px;
-    padding: 0.5em 1em;
+    border-radius: 10px;
+    padding: 0.5em 1.5em;
 }
 
 @media (min-width: 1000px) {

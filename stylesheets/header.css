@@ -1,0 +1,33 @@
+header {
+    height: fit-content;
+    background: linear-gradient(#00337e 70%, #fff 30%);
+    -webkit-gradient(#00337e 60%, #fff 40%);
+}
+
+header {
+    display: grid;
+    grid-template-areas: none;
+    grid-template-areas: "b a a";
+    grid-template-areas: "b c c";
+}
+
+#logo {
+    grid-area: b;
+}
+
+#header-header {
+    grid-area: b;
+    margin-left: 5em;
+    margin-top: 2em;
+    font-size: 1.9em;
+}
+
+.header-white {
+    color: white;
+}
+
+#header-header {
+    font-family: 'ethnocentric', 'Gill Sans MT', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
