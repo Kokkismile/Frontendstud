@@ -1,33 +1,45 @@
 header {
     height: fit-content;
     background: linear-gradient(#00337e 70%, #fff 30%);
-    -webkit-gradient(#00337e 60%, #fff 40%);
 }
 
 header {
     display: grid;
     grid-template-areas: none;
-    grid-template-areas: "b a a";
-    grid-template-areas: "b c c";
+    grid-template-areas: "left left right right";
+    grid-template-areas: "left left right right";
 }
 
 #logo {
-    grid-area: b;
+    grid-area: left;
 }
 
-#header-header {
-    grid-area: b;
+#logo-header {
+    grid-area: left;
     margin-left: 5em;
     margin-top: 2em;
     font-size: 1.9em;
 }
 
-.header-white {
-    color: white;
-}
-
-#header-header {
-    font-family: 'ethnocentric', 'Gill Sans MT', sans-serif;
+#logo-header {
+    font-family: 'ethnocentric', 'Gill Sans MT', helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
+}
+
+.topnav {
+    grid-area: right;
+    height: fit-content;
+    width: fit-content;
+}
+
+.li-nav {
+    font-family: 'transducer', 'gill sans MT', sans-serif;
+    font-weight: 100;
+    height: fit-content;
+}
+
+.nav-flex {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
 }

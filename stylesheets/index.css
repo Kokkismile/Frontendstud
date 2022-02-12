@@ -1,17 +1,19 @@
-@font-face {
-    font-family: Gotic-sans, times, verdana, arial, 'Bowlby One SC', cursive;
-    src: url();
-}
-
 :root {
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #00337E;
-    background-repeat: no-repeat;
-    contain: content;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-white {
+    color: white;
 }
 
 .article {
