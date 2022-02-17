@@ -65,6 +65,7 @@ p {
 .home-container1 {
     background-image: url(/images/background/museum-hall.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .home-box1, .home-box2, .home-box3 {
@@ -106,3 +107,13 @@ p {
     .home-container1 {
         display: flex;
     }}
+
+    /* About page */
+.staff-img-wrap {
+    height: auto;
+    max-width: 600px;
+}
+.staff-img {
+    height: auto;
+    width: 100%;
+}
