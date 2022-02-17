@@ -109,9 +109,16 @@ p {
     }}
 
     /* About page */
+.text-image-wrap {
+    background-image: url(/images/background/staff.jpg);
+    height: 60vw;
+    width: 60vw;
+    background-repeat: no-repeat;
+}
 .about-img-text-wrap {
     height: auto;
-    max-width: 600px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .staff-img {
