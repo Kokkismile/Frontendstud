@@ -1,9 +1,6 @@
 header {
     height: fit-content;
     background: linear-gradient(#00337e 70%, #fff 30%);
-}
-
-header {
     display: grid;
     grid-template-areas: none;
     grid-template-areas: "left left right right";
@@ -25,10 +22,10 @@ header {
     font-family: 'ethnocentric', 'Gill Sans MT', helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin-bottom: 2.5em;
 }
 
 .topnav {
-    grid-area: right;
     height: fit-content;
     width: fit-content;
 }
@@ -36,6 +33,7 @@ header {
 .li-nav {
     font-family: 'transducer', 'gill sans MT', sans-serif;
     font-weight: 100;
+    padding: 0.5em;
     height: fit-content;
 }
 
@@ -43,3 +41,52 @@ header {
     display: grid;
     grid-template-columns: repeat(6, auto);
 }
+
+#search-bar {
+    grid-area: left;
+    height: 20px;
+    width: 200px;
+    margin-top: 14em;
+    margin-left: 9em;
+}
+
+/* Hamburger menu checkbox hack */
+
+nav {
+    display: none;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+@media (min-width: 900px) {
+    .mobile-menu {
+        display: none;
+    }
+    nav {
+        display: inline-block;
+    }}
+
+@media (max-width: 900px) {
+    .nav-flex {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin: 35% 0 0 -50%;
+        background-color: #00337e;
+    }
+
+    .li-nav {
+        font-family: 'transducer', 'gill sans MT', sans-serif;
+        font-weight: 100;
+        margin-bottom: 1em;
+        padding: 0.5em 2em;
+        border: solid white 1px;
+        border-radius: 15px;
+        text-align: left;
+    }}
