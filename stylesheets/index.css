@@ -55,7 +55,7 @@ p {
 .h-two-fonts-blue {
     font-family: 'transducer', sans-serif;
     font-weight: 400;
-    color: #00337e;
+    color: #272C32;
 }
 
 #home-box2-p {
@@ -109,11 +109,17 @@ p {
     }}
 
     /* About page */
-.staff-img-wrap {
+.about-img-text-wrap {
     height: auto;
     max-width: 600px;
 }
+
 .staff-img {
     height: auto;
     width: 100%;
+}
+
+.contact-wrap {
+    border: solid 1px #272C32;
+    padding: 1rem;
 }
