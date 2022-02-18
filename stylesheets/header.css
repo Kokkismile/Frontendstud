@@ -102,11 +102,14 @@ nav {
         margin-top: 1rem;
     }
 .logo-img {
-    margin-top: 2.5rem;
+    margin-top: 4rem;
 }}
 
     @media (max-width: 1200px) {
-        .logo-header, .search-bar {
+        .logo-header {
             font-size: 1rem;
-            margin-left: 0.5rem;
-        }}
+        }
+    
+    .search-bar {
+        margin-top: 11em;
+    }}
