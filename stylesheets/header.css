@@ -7,15 +7,21 @@ header {
     grid-template-areas: "left left right right";
 }
 
-.logo {
+.logo-a {
     grid-area: left;
+}
+
+.logo-img {
+    height: auto;
+    width: 100%;
+    max-width: 110px;
 }
 
 #logo-header {
     grid-area: left;
     margin: 3rem 0 2rem 9.5rem;
     font-size: 1.7rem;
-    min-width: 550px; /* makes text NOT stack */
+    min-width: 400px; /* makes text NOT stack */
 }
 
 #logo-header {
@@ -95,4 +101,8 @@ nav {
     .mobile-menu {
         display: inline;
         margin: 1rem;
+    }
+    #logo-header {
+        font-size: 1rem;
+        min-width: 200px;
     }}
