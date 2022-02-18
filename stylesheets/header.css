@@ -7,7 +7,7 @@ header {
     grid-template-areas: "left left right right";
 }
 
-#logo {
+.logo {
     grid-area: left;
 }
 
