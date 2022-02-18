@@ -38,8 +38,7 @@ header {
 }
 
 .nav-flex {
-    display: grid;
-    grid-template-columns: repeat(6, auto);
+    display: flex;
 }
 
 #search-bar {
@@ -77,7 +76,9 @@ nav {
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin: 35% 0 0 -50%;
+        padding: 2rem;
+        position: absolute;
+        margin: 11rem 0 0 -12.3rem;
         background-color: #00337e;
     }
 
@@ -86,7 +87,11 @@ nav {
         font-weight: 100;
         margin-bottom: 1em;
         padding: 0.5em 2em;
-        border: solid white 1px;
-        border-radius: 15px;
+        /* border: solid white 1px;
+        border-radius: 10px; */
         text-align: left;
+    }
+    .mobile-menu {
+        display: inline;
+        margin: 1rem;
     }}
