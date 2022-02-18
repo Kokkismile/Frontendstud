@@ -41,6 +41,9 @@ p {
 
 body {
     background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .emphasize-text {
@@ -71,7 +74,7 @@ body {
 
 .home-box1, .home-box2, .home-box3 {
     background-color: white;
-    margin: 4em;
+    margin: 3em;
 }
 
 .home-box2 {

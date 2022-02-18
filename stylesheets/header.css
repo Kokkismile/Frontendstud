@@ -113,3 +113,12 @@ nav {
     .search-bar {
         margin-top: 11em;
     }}
+
+  /*   footer */
+  footer {
+    background-color: #fff;
+    margin-top: auto;
+    /* husk at du positioned relative på body */
+    display: flex;
+    justify-content: space-around;
+}
