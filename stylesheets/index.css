@@ -62,8 +62,8 @@ body {
     color: #272C32;
 }
 
-#home-box2-p {
-    font-size: 1.4em;
+.text-margin-left {
+    margin-left: 1em;
 }
 
 .home-container1 {
@@ -75,9 +75,6 @@ body {
 .home-box1, .home-box2, .home-box3 {
     background-color: white;
     margin: 1em;
-    padding: 1em;
-    width: fit-content;
-    height: fit-content;
 }
 
 .home-box2 {
@@ -108,6 +105,11 @@ body {
     height: auto;
     width: 25vw;
     max-width: 150px;
+}
+
+.home-box4, .home-box5, .home-box6 {
+    background-color: white;
+    margin-top: 1em;
 }
 
 @media (min-width: 1000px) {
