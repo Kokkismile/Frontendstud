@@ -13,9 +13,9 @@ header {
 
 #logo-header {
     grid-area: left;
-    margin-left: 5em;
-    margin-top: 2em;
-    font-size: 1.9em;
+    margin: 3rem 0 2rem 9.5rem;
+    font-size: 1.7rem;
+    min-width: 550px; /* makes text NOT stack */
 }
 
 #logo-header {
@@ -45,8 +45,9 @@ header {
     grid-area: left;
     height: 20px;
     width: 200px;
-    margin-top: 14em;
-    margin-left: 9em;
+    display: flex;
+    align-self: flex-end;
+    margin: 0 0 1rem 9rem;
 }
 
 /* Hamburger menu checkbox hack */
