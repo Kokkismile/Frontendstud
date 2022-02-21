@@ -49,6 +49,8 @@ header {
     height: 20px;
     width: 180px;
     margin: 8rem 0 1rem 0;
+    font-family: 'Gill Sans MT', Gill Sans, Calibri;
+    border-radius: 5px;
 }
 
 /* Hamburger menu checkbox hack */
@@ -101,8 +103,8 @@ nav {
         grid-area: left-b;
         margin-top: 1rem;
     }
-.logo-img {
-    margin-top: 4rem;
+header {
+    background: linear-gradient(#00337e 60%, #fff 40%);
 }}
 
     @media (max-width: 1200px) {
@@ -118,7 +120,11 @@ nav {
   footer {
     background-color: #fff;
     margin-top: auto;
-    /* husk at du positioned relative på body */
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.h3-footer {
+    color: #082154;
 }
