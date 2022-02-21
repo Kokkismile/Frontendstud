@@ -155,3 +155,14 @@ body {
     border: solid 1px #272C32;
     padding: 1rem;
 }
+
+/* Articles page */
+.article-h1-img-wrap {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.article-h1 {
+    position: absolute;
+}
