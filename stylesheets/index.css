@@ -165,4 +165,8 @@ body {
 
 .article-h1 {
     position: absolute;
+    bottom: 100px;
+    right: 140px;
+    font-family: 'cormorant-garamond', serif, sans-serif;
+    font-weight: 500;
 }
