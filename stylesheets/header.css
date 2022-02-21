@@ -46,7 +46,7 @@ header {
 }
 
 .search-bar {
-    grid-area: left-b;
+    grid-area: left-a;
     height: 20px;
     width: 180px;
     margin: 8rem 0 1rem 0;
