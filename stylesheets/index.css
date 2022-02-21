@@ -165,8 +165,9 @@ body {
 
 .article-h1 {
     position: absolute;
-    bottom: 100px;
-    right: 140px;
+    bottom: 8px;
+    right: 30px;
     font-family: 'cormorant-garamond', serif, sans-serif;
     font-weight: 500;
+    font-size: 9.5rem;
 }
