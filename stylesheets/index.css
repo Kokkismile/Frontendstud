@@ -51,14 +51,16 @@ body {
     font-weight: 500;
     font-style: normal;
     display: block;
-    font-size: 2.1rem;
+    /* font-size: 2.1rem; */
+    font-size: clamp(0.8rem, 6vw, 2.1rem);
     padding-top: 0.2rem;
 }
 
 .h-two-fonts {
     font-family: 'transducer', sans-serif;
     font-weight: 400;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    font-size: clamp(0.5rem, 4vw, 1.2rem);
     color: #272C32;
 }
 
@@ -184,7 +186,7 @@ body {
 
 .img-fixed-scale {
     height: auto;
-    width: clamp(100px, 100%, 900px);
+    width: clamp(150px, 100%, 900px);
 }
 .article-text {
     max-width: 700px;
@@ -199,3 +201,14 @@ p, .article-text {
     margin-top: 5%;
     font-size: clamp(0.2rem, 2vw, 1rem);
 }
+
+@media (max-width: 900px) {
+    .article-text {
+        margin-top: 20rem;
+        margin-left: -5rem;
+    }
+#article-h2-media {
+    position: absolute;
+    margin: -14rem 0 0 9rem;
+    max-width: 200px;
+}}
