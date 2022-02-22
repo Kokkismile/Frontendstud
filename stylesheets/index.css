@@ -173,3 +173,11 @@ body {
     font-weight: 500;
     font-size: clamp(2rem, 9vw, 10rem);
 }
+
+.article-text {
+    max-width: 700px;
+    margin: 1rem ;
+}
+.article-nr1 {
+    display: flex;
+}
