@@ -190,9 +190,6 @@ p, .article-text {
 }
 
 .article-grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
     background-color: #fff;
     margin-bottom: 1.5rem;
 }
@@ -208,7 +205,7 @@ p, .article-text {
 
 .article-header {
     max-width: 250px;
-    margin-top: 20%;
+    margin-top: 5rem;
 }
 
 .article-paragraph, .article-header {
@@ -221,6 +218,9 @@ p, .article-text {
         display: grid;
         grid-template-areas: "text img";
         grid-template-columns: 2fr 1fr;
+    }
+    .articles-main {
+        margin: 2rem 8rem 0 8rem;
     }
 .article-header {
     grid-area: text;
