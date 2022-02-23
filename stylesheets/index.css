@@ -177,7 +177,7 @@ body {
 
 .img-fixed-scale {
     height: auto;
-    width: clamp(100px, 100%, 900px);
+    width: clamp(100px, 100%, 1000px);
 }
 
 p, .article-text {
@@ -219,8 +219,8 @@ p, .article-text {
     .article-grid-container {
         grid-template-areas: none;
         display: grid;
-        grid-template-areas: "text img"
-                             "text img";
+        grid-template-areas: "text img";
+        grid-template-columns: 2fr 1fr;
     }
 .article-header {
     grid-area: text;
@@ -229,9 +229,9 @@ p, .article-text {
 .article-paragraph {
     grid-area: text;
     margin-top: 8rem;
-    max-width: 500px;
+    max-width: 600px;
 }
-.article-img {
+.article-image {
     grid-area: 'img';
 }
 .article-h-img-wrap {
