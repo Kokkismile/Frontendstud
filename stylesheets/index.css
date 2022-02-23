@@ -194,6 +194,7 @@ p, .article-text {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #fff;
+    margin-bottom: 1.5rem;
 }
 
 .h2-img-wrap-inner {
