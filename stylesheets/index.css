@@ -228,6 +228,7 @@ p, .article-text {
 
 .h2-img-wrap-inner {
     display: flex;
+    justify-content: space-between;
 }
 
 .h2-img-wrap-outer {
