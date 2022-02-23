@@ -220,7 +220,7 @@ p, .article-text {
         grid-template-columns: 2fr 1fr;
     }
     .articles-main {
-        margin: 2rem 8rem 0 8rem;
+        margin: 2rem 15rem 0 15rem;
     }
 .article-header {
     grid-area: text;
