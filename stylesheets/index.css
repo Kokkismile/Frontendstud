@@ -163,7 +163,7 @@ body {
     position: relative;
     text-align: center;
     color: #fff;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
 }
 
 .article-h1 {
@@ -210,7 +210,7 @@ p, .article-text {
     margin-top: 20%;
 }
 
-.article-pharagraph, .article-header {
+.article-paragraph, .article-header {
     padding: 2rem;
 }
 
@@ -225,7 +225,7 @@ p, .article-text {
     grid-area: text;
     margin-top: -1rem;
 }
-.article-pharagraph {
+.article-paragraph {
     grid-area: text;
     margin-top: 8rem;
     max-width: 500px;
