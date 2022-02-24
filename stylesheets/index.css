@@ -136,21 +136,39 @@ body {
     }}
 
     /* About page */
-.text-image-wrap {
-    background-image: url(/images/background/staff.jpg);
-    height: 60vw;
-    width: 60vw;
-    background-repeat: no-repeat;
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem;
 }
-.about-img-text-wrap {
-    height: auto;
-    max-width: 1000px;
-    margin: 0 auto;
+.about-h1-img-wrap {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    color: #E8E9C7;
+    margin-bottom: 2rem;
+    border: solid 2px black;
 }
 
-.staff-img {
+.about-h1 {
+    position: absolute;
+    top: 9%;
+    left: 40%;
+    font-family: 'cormorant-garamond', serif, sans-serif;
+    font-weight: 700;
+    font-size: clamp(1rem, 4vw, 2rem);
+}
+
+.about-img-staff {
     height: auto;
-    width: 100%;
+    width: clamp(150px, 650px, 100%);
+}
+
+.about-paragraph {
+    max-width: 700px;
 }
 
 .contact-wrap {
@@ -223,7 +241,7 @@ body {
         grid-template-areas: "text img";
         grid-template-columns: 2fr 1fr;
     }
-    .articles-main {
+    .articles-main, .about-container {
         margin: 1rem 20rem 0 20rem;
     }
 .article-header {
@@ -249,6 +267,6 @@ body {
 }}
 
 @media (max-width: 1300px) {
-    .articles-main {
+    .articles-main, .about-container {
         margin: 2rem 2rem 0 2rem;
     }}
