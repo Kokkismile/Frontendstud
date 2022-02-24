@@ -314,9 +314,7 @@ body {
         margin: 2rem 2rem 0 2rem;
     }}
 
-    /* @media (max-width: 900px) {
-        .club-box-1 {
-            display: grid;
-            grid-template-areas: "text img";
-            grid-template-columns: 2fr 1fr;
-        }} */
+    @media (max-width: 900px) {
+        .clubs-h2-img-wrap {
+            flex-direction: column;
+        }}
