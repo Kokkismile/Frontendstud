@@ -178,12 +178,32 @@ body {
 }
 
 /* clubs page */
+.clubs-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
 .clubs-h1 {
     background-color: white;
+    padding: 1.5rem;
+    margin: 1rem;
 }
 
 .clubs-h2 {
     color: #7D5455;
+}
+.club-box-1, .clubs-h2 {
+    background-color: #fff;
+}
+
+.club-box-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.club-box-1 > * {
+    flex: 1 1 10rem;
 }
 .clubs-h2-img-wrap {
     display: flex;
