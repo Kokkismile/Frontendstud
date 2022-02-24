@@ -202,9 +202,9 @@ body {
     flex-wrap: wrap;
     margin: 1rem;
 }
-.club-box-1 > * {
+/* .club-box-1 > * {
     flex: 1 1 1;
-}
+} */
 
 .clubs-h2-img-wrap {
     display: flex;
