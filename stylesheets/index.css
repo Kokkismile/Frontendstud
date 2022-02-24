@@ -177,6 +177,19 @@ body {
     padding: 1rem;
 }
 
+/* clubs page */
+.clubs-h1 {
+    background-color: white;
+}
+
+.clubs-h2 {
+    color: #7D5455;
+}
+.clubs-h2-img-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* Article page */
 .article-h1-img-wrap {
     position: relative;
