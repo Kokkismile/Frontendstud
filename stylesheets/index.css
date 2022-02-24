@@ -212,6 +212,10 @@ body {
     padding: 2rem;
 }
 
+.biomed-h2 {
+    color: #773A38;
+}
+
 @media (min-width: 1000px) {
     .article-grid-container {
         grid-template-areas: none;
