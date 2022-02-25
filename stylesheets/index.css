@@ -46,6 +46,10 @@ body {
     min-height: 100vh;
 }
 
+.text-padding {
+    padding: 1rem;
+}
+
 .emphasize-text {
     font-family: 'loos-normal', sans-serif;
     font-weight: 500;
@@ -192,7 +196,7 @@ body {
     color: #7D5455;
     padding: 1rem;
 }
-.club-box-1, .clubs-h2 {
+.club-box-1, .clubs-h2, .white-bg {
     background-color: #fff;
 }
 
@@ -218,6 +222,25 @@ body {
 .clubs-paragraph {
     max-width: 600px;
     padding: 1rem;
+}
+
+/* courses */
+.courses-h1-img-wrap {
+    position: relative;
+    text-align: center;
+}
+.courses-h1 {
+    position: absolute;
+    font-family: 'cormorant-garamond', serif, sans-serif;
+    font-size: clamp(1.5rem, 3vw, 4rem);
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: #2D3B4D;
+}
+
+.course-h2 {
+    color: #2D3B4D;
 }
 
 /* Article page */
@@ -285,7 +308,7 @@ body {
         grid-template-areas: "text img";
         grid-template-columns: 2fr 1fr;
     }
-    .articles-main, .about-container, .clubs-main-container {
+    .articles-main, .about-container, .clubs-main-container, .scalable-margin {
         margin: 1rem 20rem 0 20rem;
     }
 .article-header {
@@ -311,7 +334,7 @@ body {
 }}
 
 @media (max-width: 1400px) {
-    .articles-main, .about-container, .clubs-main-container {
+    .articles-main, .about-container, .clubs-main-container, .scalable-margin {
         margin: 2rem 2rem 0 2rem;
     }}
 

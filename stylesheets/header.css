@@ -125,6 +125,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 1rem;
 }
 
 .h3-footer {
