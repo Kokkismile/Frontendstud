@@ -239,8 +239,13 @@ body {
     color: #2D3B4D;
 }
 
-.course-h2 {
+.h2-grey {
     color: #2D3B4D;
+}
+
+.courses-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 /* Article page */
