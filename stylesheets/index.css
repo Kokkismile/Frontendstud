@@ -255,6 +255,19 @@ body {
                          "lab robot vr";
 }
 
+.tesla {
+    grid-area: tesla;
+}
+.vr {
+    grid-area: vr;
+}
+.lab {
+    grid-area: lab;
+}
+.robot {
+    grid-area: robot;
+}
+
 /* Article page */
 .article-h1-img-wrap {
     position: relative;
