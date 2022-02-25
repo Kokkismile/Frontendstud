@@ -248,6 +248,13 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+/* visit page */
+.visit-grid-container {
+    display: grid;
+    grid-template-areas: "tesla tesla vr"
+                         "lab robot vr";
+}
+
 /* Article page */
 .article-h1-img-wrap {
     position: relative;
