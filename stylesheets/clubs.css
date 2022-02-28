@@ -24,9 +24,6 @@
     flex-wrap: wrap;
     margin: 1rem;
 }
-/* .club-box-1 > * {
-    flex: 1 1 1;
-} */
 
 .clubs-h2-img-wrap {
     display: flex;
@@ -43,7 +40,7 @@
 }
 
 @media (max-width: 900px) {
+
     .clubs-h2-img-wrap {
         flex-direction: column;
-    }
-}}
+    }}

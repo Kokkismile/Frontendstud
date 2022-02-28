@@ -129,15 +129,6 @@ body {
     margin: 3em 3em;
 }
 
-@media (min-width: 1000px) {
-    .home-container1 {
-        display: flex;
-    }
-    .home-container2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }}
-
     /* About page */
 .about-container {
     display: flex;
@@ -184,6 +175,7 @@ body {
 .courses-h1-img-wrap {
     position: relative;
     text-align: center;
+    margin-top: 1rem;
 }
 .courses-h1 {
     position: absolute;
@@ -218,6 +210,11 @@ body {
     width: clamp(100px, 100%, 648px);
 }
 
+.img-fixed-scale {
+    height: auto;
+    width: clamp(100px, 100%, 600px);
+}
+
 .tesla {
     grid-area: tesla;
 }
@@ -247,12 +244,16 @@ body {
             }
 
 @media (max-width: 1400px) {
-    .about-container, .clubs-main-container, .scalable-margin {
+    .auto-margin {
         margin: 2rem 2rem 0 2rem;
-    }}
+    }
+}}
 
-    @media (max-width: 900px) {
-        .clubs-h2-img-wrap {
-            flex-direction: column;
-        }
+@media (min-width: 1000px) {
+    .home-container1 {
+        display: flex;
+    }
+    .home-container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }}
