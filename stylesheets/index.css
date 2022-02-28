@@ -253,6 +253,13 @@ body {
     display: grid;
     grid-template-areas: "tesla tesla vr"
                          "lab robot vr";
+    max-height: 900px;
+}
+
+.img-fixed2-scale {
+    height: auto;
+    width: clamp(50px, 100%, 648px);
+    /* height: clamp(100px, 100%, 613px); */
 }
 
 .tesla {
@@ -267,6 +274,11 @@ body {
 .robot {
     grid-area: robot;
 }
+
+@media (max-width: 330px) {
+    .img-fixed2-scale {
+        max-height: 113px;
+    }}
 
 /* Article page */
 .article-h1-img-wrap {
