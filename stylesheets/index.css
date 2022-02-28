@@ -290,102 +290,13 @@ body {
                 max-height: 109px;
             }
 
-/* Article page */
-.article-h1-img-wrap {
-    position: relative;
-    text-align: center;
-    color: #fff;
-    margin: 1.5rem 0 1.5rem 0;
-}
-
-.article-h1 {
-    position: absolute;
-    bottom: 8px;
-    right: 10px;
-    font-family: 'cormorant-garamond', serif, sans-serif;
-    font-weight: 500;
-    font-size: clamp(2rem, 6vw, 4rem);
-}
-
-.img-fixed-scale {
-    height: auto;
-    width: clamp(100px, 100%, 1000px);
-}
-
-/* p, .article-text {
-    font-size: clamp(0.2rem, 2vw, 2rem);
-} */
-
-.articles-main {
-    display: flex;
-    justify-content: center;
-}
-
-.article-grid-container {
-    background-color: #fff;
-    margin-bottom: 1.5rem;
-}
-
-.h2-img-wrap-inner {
-    display: flex;
-    justify-content: space-between;
-}
-
-.h2-img-wrap-outer {
-    display: none;
-}
-
-.article-header {
-    max-width: 250px;
-    margin-top: 5rem;
-}
-
-.article-paragraph, .article-header {
-    padding: 2rem;
-}
-
-.biomed-h2 {
-    color: #773A38;
-}
-
-@media (min-width: 1000px) {
-    .article-grid-container {
-        grid-template-areas: none;
-        display: grid;
-        grid-template-areas: "text img";
-        grid-template-columns: 2fr 1fr;
-    }
-    .articles-main, .about-container, .clubs-main-container, .scalable-margin {
-        margin: 1rem 20rem 0 20rem;
-    }
-.article-header {
-    grid-area: text;
-    margin-top: -1rem;
-}
-.article-paragraph {
-    grid-area: text;
-    margin-top: 8rem;
-    max-width: 600px;
-}
-.article-image {
-    grid-area: 'img';
-}
-.article-h-img-wrap {
-    display: block;
-}
-.h2-img-wrap-inner {
-    display: none;
-}
-.h2-img-wrap-outer {
-    display: block;
-}}
-
 @media (max-width: 1400px) {
-    .articles-main, .about-container, .clubs-main-container, .scalable-margin {
+    .about-container, .clubs-main-container, .scalable-margin {
         margin: 2rem 2rem 0 2rem;
     }}
 
     @media (max-width: 900px) {
         .clubs-h2-img-wrap {
             flex-direction: column;
-        }}
+        }
+    }}
