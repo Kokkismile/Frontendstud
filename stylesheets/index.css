@@ -180,50 +180,6 @@ body {
     padding: 1rem;
 }
 
-/* clubs page */
-.clubs-main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.clubs-h1 {
-    background-color: white;
-    padding: 1.5rem;
-    margin: 1rem;
-}
-
-.clubs-h2 {
-    color: #7D5455;
-    padding: 1rem;
-}
-.club-box-1, .clubs-h2, .white-bg {
-    background-color: #fff;
-}
-
-.club-box-1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 1rem;
-}
-/* .club-box-1 > * {
-    flex: 1 1 1;
-} */
-
-.clubs-h2-img-wrap {
-    display: flex;
-}
-
-.img-fixed2-scale {
-    height: auto;
-    width: clamp(100px, 100%, 600px);
-}
-
-.clubs-paragraph {
-    max-width: 600px;
-    padding: 1rem;
-}
-
 /* courses */
 .courses-h1-img-wrap {
     position: relative;
