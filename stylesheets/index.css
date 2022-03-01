@@ -72,6 +72,10 @@ body {
     margin-left: 1rem;
 }
 
+.home-h1 {
+    color: #00337E;
+}
+
 .home-container1 {
     background-image: url(/images/background/museum-hall.jpg);
     background-repeat: no-repeat;
@@ -81,7 +85,8 @@ body {
 
 .home-box1 {
     display: grid;
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: contain;
 }
 .home-box1, .home-box2, .home-box3 {
     background-color: white;
