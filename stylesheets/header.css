@@ -3,24 +3,24 @@ header {
     display: grid;
     grid-template-areas: none;
     grid-template-areas: "logo header nav nav"
-                         "logo search search search";
+                         "logo search nav nav";
 }
 
 .logo {
     height: auto;
     width: clamp(50px, 100%, 150px);
     max-width: 110px;
-    grid-area: logo;
     padding: 3px;
 }
 
 .header-header {
-    font-size: clamp(1rem, 2vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.5rem);
     font-family: 'ethnocentric', 'Gill Sans MT', helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #fff;
     grid-area: header;
+    margin-left: 2rem;
 }
 
 .topnav {
@@ -43,6 +43,7 @@ header {
     font-family: 'Gill Sans MT', Gill Sans, Calibri;
     border-radius: 5px;
     grid-area: search;
+    margin: -2rem 0 0 2rem;
 }
 
 /* Hamburger menu checkbox hack */
@@ -64,14 +65,12 @@ nav {
         display: none;
     }
     nav {
-        display: inline-block;
-    }
-
-.search-bar, .logo-header {
-    grid-area: left-a;
-    margin-left: 8rem;
-}}
-
+        display: block;
+    }}
+    @media (min-width:1750px) {
+        .search, .header-header {
+            margin-left: -14rem;
+        }}
 @media (max-width: 900px) {
     .nav-flex {
         display: flex;
@@ -87,8 +86,6 @@ nav {
         font-weight: 100;
         margin-bottom: 1em;
         padding: 0.5em 2em;
-        /* border: solid white 1px;
-        border-radius: 10px; */
         text-align: left;
     }
     .mobile-menu {
