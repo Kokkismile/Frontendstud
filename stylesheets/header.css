@@ -89,20 +89,15 @@ nav {
         text-align: left;
     }
     .mobile-menu {
-        margin: 1.5rem 0 0 2rem;
+        margin: 1.5rem 1rem 0 0;
         grid-area: search;
     }
-header {
+/* header {
     grid-template-columns: 1fr 2fr 2fr;
-}}
-
-    @media (max-width: 1200px) {
-        .logo-header {
-            font-size: 1rem;
-        }
-    
-    .search-bar {
-        margin-top: 11em;
+} */}
+@media (max-width: 400px) {
+    .search {
+        margin: 0.5rem 0 0.5rem 0;
     }}
 
   /*   footer */

@@ -85,9 +85,9 @@ body {
 }
 
 .home-box2 {
-    display: flex;
-    justify-content: space-between;
-    width: auto;
+    display: grid; /* tvinger bildet til å passe gridden */
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .home-box3-content-wrap {
@@ -238,9 +238,11 @@ body {
         .img-fixed2-scale {
             max-height: 109px;
         }}
-        @media (max-width: 320px) {
-            .img-fixed2-scale {
-                max-height: 109px;
+        @media (max-width: 1000px) {
+            .home-box2 {
+                display: grid;
+                grid-template-rows: 1fr;
+                grid-template-columns: 1fr 1fr;
             }
 
 @media (max-width: 1400px) {
