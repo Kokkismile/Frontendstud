@@ -3,23 +3,22 @@ header {
     display: grid;
     grid-template-areas: none;
     grid-template-areas: "logo header nav nav"
-                         "logo search nav nav";
+                         "logo search search search";
 }
 
-.logo-a {
+.logo {
     grid-area: logo;
 }
 
-.logo-img {
+.logo {
     height: auto;
-    width: 20vw;
+    width: clamp(50px, 100%, 150px);
     max-width: 110px;
-    margin-right: 0.2rem;
     padding: 3px;
 }
 
 .header-header {
-    font-size: 1.7rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     font-family: 'ethnocentric', 'Gill Sans MT', helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -43,7 +42,7 @@ header {
     display: flex;
 }
 
-.search-bar {
+.search {
     font-family: 'Gill Sans MT', Gill Sans, Calibri;
     border-radius: 5px;
     grid-area: search;
