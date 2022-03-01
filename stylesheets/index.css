@@ -91,15 +91,16 @@ body {
     margin: 2em;
 }
 
-.img-home-box3 {
-    max-height: 150px;
-}
 .home-box2 {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1fr;
+    background-size: cover;
 }
 
-.img-home-box2 {
-    max-height: 200px;
+.button-header-wrap {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .img-auto-scale {
@@ -261,7 +262,7 @@ body {
             .home-box2 {
                 display: grid;
                 grid-template-rows: 1fr;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 2fr 1fr;
             }
 
 @media (max-width: 1400px) {
