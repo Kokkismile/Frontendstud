@@ -79,6 +79,10 @@ body {
     padding: 1rem;
 }
 
+.home-box1 {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+}
 .home-box1, .home-box2, .home-box3 {
     background-color: white;
     margin: 2em;
