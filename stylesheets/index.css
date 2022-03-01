@@ -72,6 +72,9 @@ body {
     color: #272C32;
 }
 
+.auto-margin {
+    margin: clamp(0.5rem, 5vw, 3rem);
+}
 .text-margin-left {
     margin-left: 1rem;
 }
@@ -96,6 +99,10 @@ body {
     grid-template-rows: 1fr;
     grid-template-columns: 2fr 1fr;
     background-size: cover;
+}
+
+.img-home-box2 {
+    max-height: 250px;
 }
 
 .button-header-wrap {
@@ -142,11 +149,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 1rem;
-}
-
-.home-box4, .home-box5, .home-box6 {
-    background-color: white;
-    margin: 3em 3em;
 }
 
     /* About page */
@@ -265,9 +267,9 @@ body {
                 grid-template-columns: 2fr 1fr;
             }
 
-@media (max-width: 1400px) {
+@media (max-width: 1600px) {
     .auto-margin {
-        margin: 2rem 2rem 0 2rem;
+        margin: clamp(0.5rem, 2vw, 2rem);
     }
 }}
 
@@ -276,6 +278,5 @@ body {
         display: flex;
     }
     .home-container2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
     }}
