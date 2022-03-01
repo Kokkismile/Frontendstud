@@ -7,13 +7,10 @@ header {
 }
 
 .logo {
-    grid-area: logo;
-}
-
-.logo {
     height: auto;
     width: clamp(50px, 100%, 150px);
     max-width: 110px;
+    grid-area: logo;
     padding: 3px;
 }
 
