@@ -20,7 +20,7 @@ header {
     font-style: normal;
     color: #fff;
     grid-area: header;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 .topnav {
@@ -89,11 +89,10 @@ nav {
         text-align: left;
     }
     .mobile-menu {
-        grid-area: left-b;
-        margin-top: 1rem;
+        margin: 1.5rem 0 0 2rem;
+        grid-area: search;
     }
 header {
-    background: linear-gradient(#00337e 60%, #fff 40%);
     grid-template-columns: 1fr 2fr 2fr;
 }}
 
