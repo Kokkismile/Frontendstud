@@ -17,6 +17,10 @@ ul {
     color: white;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 h1 {
     font-family: 'loos-normal', helvetica, arial;
     font-weight: 500;
@@ -83,25 +87,12 @@ body {
     padding: 1rem;
 }
 
-.home-box1 {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    height: contain;
-}
 .home-box1, .home-box2, .home-box3 {
-    background-color: white;
     margin: 2em;
 }
 
 .home-box2 {
-    display: grid; /* tvinger bildet til å passe gridden */
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-}
-
-.home-box3-content-wrap {
     display: flex;
-    justify-content: space-between;
 }
 
 .img-auto-scale {
@@ -111,11 +102,13 @@ body {
 }
 
 .button1 {
+    display: inline-block;
     background-color: #00337E;
+    color: #fff;
     font-family: 'loos-normal', sans-serif;
+    border: solid 2px #00337E;
     font-weight: 300;
     text-align: center;
-    color: white;
     border-radius: 10px;
     padding: 10px 10px;
     height: 18px;
@@ -123,14 +116,16 @@ body {
 }
 
 .button2 {
-    display: inline;
-    margin: 0 auto;
+    display: inline-block;
     background-color: #EEF5FF;
     border: solid 2px #00337E;
-    color: #061429;
-    border-radius: 10px;
-    padding: 10px 15px;
+    color: #00337E;
+    font-weight: 300;
     text-align: center;
+    border-radius: 10px;
+    padding: 10px 10px;
+    height: 18px;
+    width: 145px;
 }
 
 .home-box4, .home-box5, .home-box6 {
