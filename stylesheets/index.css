@@ -126,8 +126,8 @@ body {
 .button2 {
     display: inline-block;
     background-color: #EEF5FF;
-    border: solid 2px #00337E;
-    color: #00337E;
+    border: solid 2px #272C32/* #00337E */;
+    color: black;
     font-weight: 300;
     font-size: 1rem;
     text-align: center;
