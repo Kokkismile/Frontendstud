@@ -2,8 +2,8 @@ header {
     background: linear-gradient(#00337e 70%, #fff 30%);
     display: grid;
     grid-template-areas: none;
-    grid-template-areas: "logo header header nav nav"
-                         "logo search search nav nav";
+    grid-template-areas: "logo header nav nav"
+                         "logo search nav nav";
 }
 
 .logo-a {
@@ -18,12 +18,13 @@ header {
     padding: 3px;
 }
 
-.logo-header {
+.header-header {
     font-size: 1.7rem;
     font-family: 'ethnocentric', 'Gill Sans MT', helvetica, sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #fff;
+    grid-area: header;
 }
 
 .topnav {
@@ -43,10 +44,9 @@ header {
 }
 
 .search-bar {
-    height: 20px;
-    width: 180px;
     font-family: 'Gill Sans MT', Gill Sans, Calibri;
     border-radius: 5px;
+    grid-area: search;
 }
 
 /* Hamburger menu checkbox hack */
