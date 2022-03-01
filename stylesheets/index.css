@@ -267,7 +267,7 @@ body {
                 grid-template-columns: 2fr 1fr;
             }
 
-@media (max-width: 1600px) {
+@media (max-width: 1400px) {
     .auto-margin {
         margin: clamp(0.5rem, 2vw, 2rem);
     }
