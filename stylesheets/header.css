@@ -11,6 +11,7 @@ header {
     width: clamp(50px, 100%, 150px);
     max-width: 110px;
     padding: 3px;
+    margin-right: 1rem;
 }
 
 .header-header {
