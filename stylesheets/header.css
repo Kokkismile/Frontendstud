@@ -97,6 +97,7 @@ nav {
         position: absolute;
         margin: 11rem 0 0 -12.3rem;
         background-color: #00337e;
+        border: black solid 3px;
         z-index: 100;
     }
     .li-nav {
