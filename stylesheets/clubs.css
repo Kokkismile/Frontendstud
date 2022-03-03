@@ -5,7 +5,6 @@
     justify-content: center;
 }
 .clubs-h1 {
-    background-color: white;
     padding: 1.5rem;
     margin: 1rem;
 }
@@ -13,9 +12,6 @@
 .clubs-h2 {
     color: #7D5455;
     padding: 1rem;
-}
-.club-box-1, .clubs-h2, .white-bg {
-    background-color: #fff;
 }
 
 .club-box-1 {
