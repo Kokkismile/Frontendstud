@@ -60,12 +60,11 @@ header {
     height: 30px;
 }
 
-.search-lens {
-    padding: 4px;
+.fa-solid {
+    padding: 5px;
 }
 
 /* Hamburger menu checkbox hack */
-
 nav {
     display: none;
 }
