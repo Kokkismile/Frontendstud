@@ -191,6 +191,23 @@ body {
     padding: 1rem;
 }
 
+/* job page */
+.job-page-container {
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 2rem;
+}
+
+.job-text-padding {
+    padding: 0.5rem 2rem;
+}
+
+.job-text-adjust {
+    max-width: 800px;
+}
+.job-img-adjust {
+    max-width: 900px;
+}
 /* courses */
 .courses-h1-img-wrap {
     position: relative;
