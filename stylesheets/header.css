@@ -93,18 +93,15 @@ nav {
         display: flex;
         flex-direction: column;
         position: absolute;
-        padding: 2rem;
-        position: absolute;
-        margin: 11rem 0 0 -12.3rem;
+        margin: 4rem 0 0 -16rem;
         background-color: #00337e;
-        border: black solid 3px;
         z-index: 100;
+        padding: 4rem;
     }
     .li-nav {
         font-family: 'transducer', 'gill sans MT', sans-serif;
         font-weight: 100;
-        margin-bottom: 1em;
-        padding: 0.5em 2em;
+        padding: 1rem;
         text-align: left;
     }
     .mobile-menu {
