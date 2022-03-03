@@ -111,7 +111,7 @@ nav {
     .search, .header-header {
         margin-left: 3rem;
     }}
-    @media (max-width: 330px) {
+    @media (max-width: 360px) {
         .header-header {
             padding-left: 2rem;
         }}
