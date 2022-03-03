@@ -97,6 +97,7 @@ nav {
         position: absolute;
         margin: 11rem 0 0 -12.3rem;
         background-color: #00337e;
+        z-index: 100;
     }
     .li-nav {
         font-family: 'transducer', 'gill sans MT', sans-serif;
@@ -124,6 +125,10 @@ nav {
             .header-header {
                 margin: 2rem 2rem;
     }}
+    @media (max-width: 900px) {
+        .header-header {
+            margin: 1rem 1rem;
+}}
 
   /*   footer */
   footer {
