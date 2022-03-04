@@ -308,7 +308,7 @@ body {
     transform: rotate(90deg);
     float: left;
     margin-left: -35%;
-    margin-top: 1rem;
+    margin-top: 2rem;
     white-space: nowrap;
 }
 @media (min-width: 1200px) {
@@ -318,13 +318,11 @@ body {
      @media (min-width: 1300px) {
         .opening-hours-h {
             margin-left: -10%;
+            margin-top: 3rem;
          }}
         @media (min-width: 1400px) {
             .opening-hours-h {
                 margin-left: -5%;
-            }
-            .opening-time {
-                white-space: nowrap;
             }}
             @media (min-width: 1500px) {
                 .opening-hours-h {
@@ -333,9 +331,6 @@ body {
                 @media (min-width: 1550px) {
                     .opening-hours-h {
                         margin-left: 5%;/* what is happening here? stops working*/
-                    }
-                    .opening-time {
-                        white-space: nowrap;
                     }}
                 @media (min-width: 1600px) {
                     .opening-hours-h {
@@ -349,6 +344,7 @@ body {
 .opening-time {
     min-width: 110px;
     margin-left: 45%;
+    white-space: nowrap;
 }
 
     @media (max-width: 330px) {
