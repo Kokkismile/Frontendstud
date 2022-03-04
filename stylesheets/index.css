@@ -209,21 +209,17 @@ body {
     max-width: 900px;
 }
 /* courses */
-.club-box-1 {
+.course-container-flex-wrap {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 1rem;
 }
 
-.clubs-h2-img-wrap {
+.course-box-flex-wrap {
     display: flex;
 }
-@media (max-width: 900px) {
 
-    .clubs-h2-img-wrap {
-        flex-direction: column;
-    }}
 .course-box, .courses-h1-img-wrap {
     margin: 1rem;
 }
@@ -313,6 +309,11 @@ body {
         margin: clamp(0.5rem, 2vw, 2rem);
     }
 }}
+@media (max-width: 1600px) {
+
+    .course-box-flex-wrap {
+        flex-direction: column;
+    }}
 
 @media (min-width: 800px) {
     .home-container1 {
