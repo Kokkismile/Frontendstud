@@ -294,7 +294,7 @@ body {
     grid-area: robot;
 }
 
-.visit-flex-container {
+.visit-h-time-container {
     display: grid;
     grid-template-areas: "h1 hours";
     color: #00337E;
@@ -311,9 +311,6 @@ body {
     margin-left: -35%;
     margin-top: 1rem;
     white-space: nowrap;
-    /* position: absolute;
-    white-space: nowrap;
-    margin: 5rem 0 0 2.5rem; */
 }
 
 .opening-time {
