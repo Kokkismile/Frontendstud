@@ -296,21 +296,29 @@ body {
 
 .visit-flex-container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    margin-bottom: 2rem;
+    grid-template-areas: "h1 hours";
     color: #00337E;
+    font-size: clamp(0.5rem, 3vw, 2.5rem);
 }
 
 .opening-hours {
     display: flex;
     font-family: 'transducer', sans-serif;
-    margin: -1rem 0 5rem 0;
-    padding: 1rem;
 }
 .opening-hours-h {
     transform: rotate(90deg);
-    position: absolute;
+    float: left;
+    margin-left: -35%;
+    margin-top: 1rem;
     white-space: nowrap;
+    /* position: absolute;
+    white-space: nowrap;
+    margin: 5rem 0 0 2.5rem; */
+}
+
+.opening-time {
+    min-width: 110px;
+    margin-left: 45%;
 }
 
     @media (max-width: 330px) {
