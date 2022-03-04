@@ -298,7 +298,7 @@ body {
     display: grid;
     grid-template-areas: "h1 hours";
     color: #00337E;
-    font-size: clamp(0.5rem, 3vw, 2.5rem);
+    font-size: clamp(0.5rem, 3vw, 1.5rem);
 }
 
 .opening-hours {
@@ -312,6 +312,30 @@ body {
     margin-top: 1rem;
     white-space: nowrap;
 }
+@media (min-width: 1200px) {
+    .opening-hours-h {
+        margin-left: -30%;
+    }}
+     @media (min-width: 1300px) {
+        .opening-hours-h {
+            margin-left: -25%;
+         }}
+        @media (min-width: 1400px) {
+            .opening-hours-h {
+                margin-left: 0;
+                left: 10px;
+            }
+            .visit-h-time-container {
+                grid-template-areas: none;
+                grid-template-areas: "h1 h1 hours";
+            }
+            .opening-hours-h {
+                display: block;
+            }}
+            /* @media (min-width: 1100px) {
+                .opening-hours-h {
+                    margin-right: 10%;
+                }} */
 
 .opening-time {
     min-width: 110px;
