@@ -151,11 +151,10 @@ body {
 
     /* About page */
 .about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 0 auto;
     margin-top: 2rem;
 }
+
 .about-h1-img-wrap {
     position: relative;
     text-align: center;
@@ -184,11 +183,13 @@ body {
     max-width: 700px;
     margin-bottom: 2rem;
     padding: 1rem;
+    grid-area: text;
 }
 
 .contact-wrap {
-    border: solid 1px #272C32;
     padding: 1rem;
+    width: fit-content;
+    grid-area: contact;
 }
 
 /* job page */
@@ -302,13 +303,13 @@ body {
                 display: grid;
                 grid-template-rows: 1fr;
                 grid-template-columns: 2fr 1fr;
-            }
+            }}
 
 @media (max-width: 1400px) {
     .auto-margin {
         margin: clamp(0.5rem, 2vw, 2rem);
     }
-}}
+}
 @media (max-width: 1600px) {
 
     .course-box-flex-wrap {
@@ -330,6 +331,12 @@ body {
     .course-box, .courses-h1-img-wrap {
         margin: 2rem 8rem 2rem 8rem;
     }}
+    @media (min-width: 900px) {
+        .about-container {
+            display: grid;
+            grid-template-areas: "img contact"
+                                 "text text";
+        }}
 
     @media (min-width: 1000px) {
         .course-box, .courses-h1-img-wrap {
