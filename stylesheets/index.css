@@ -326,7 +326,12 @@ body {
 
 .visit-location-text {
     max-width: 900px;
-    padding-right: 4rem;
+    padding: 1rem;
+}
+
+.visit-contact-wrap {
+    border: solid 1px #00337E;
+    padding: 1rem;
 }
 
     @media (max-width: 330px) {
