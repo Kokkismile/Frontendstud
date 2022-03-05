@@ -32,7 +32,26 @@
 
 .clubs-paragraph {
     max-width: 600px;
-    padding: 1rem;
+    padding: 0.5rem;
+}
+
+.bg-img-forest {
+    background-image: url(/images/background/forest.jpg);
+    background-size: cover;
+}
+
+.club-box-2 {
+    margin: 1rem;
+    padding: 0 2rem;
+}
+
+.clubs-h2-green {
+    color: #021704;
+}
+
+.club-box-2-text {
+    width: fit-content;
+    margin: 0 auto;
 }
 
 @media (max-width: 900px) {
@@ -40,3 +59,10 @@
     .clubs-h2-img-wrap {
         flex-direction: column;
     }}
+
+    @media (min-width: 900px) {
+
+        .clubs-paragraph {
+            max-width: 800px;
+            padding: 2rem;
+        }}
