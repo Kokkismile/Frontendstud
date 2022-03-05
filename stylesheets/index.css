@@ -186,12 +186,6 @@ body {
     grid-area: text;
 }
 
-.contact-wrap {
-    padding: 1rem;
-    width: fit-content;
-    grid-area: contact;
-}
-
 /* job page */
 .job-page-container {
     margin: 0 auto;
@@ -299,6 +293,7 @@ body {
     font-size: clamp(0.5rem, 3vw, 1.5rem);
     position: relative;
     max-height: 260px;
+    margin-bottom: 1rem;
 }
 
 .opening-hours {
@@ -319,41 +314,19 @@ body {
     margin-left: 5%;
     padding-left: 25%;
 }
-/* @media (max-width: 900px) {
-    .opening-hours-h {
-        margin-left: 0;
-        padding-left: 0;
-    }}
-     @media (max-width: 800px) {
-        .opening-hours-h {
-            margin-left: 0;
-            margin-top: 5%;
-            padding-left: 0;
-         }}
-        @media (min-width: 1400px) {
-            .opening-hours-h {
-                margin-left: -5%;
-            }}
-            @media (min-width: 1500px) {
-                .opening-hours-h {
-                    margin-left: 0;
-                }}
-                @media (min-width: 1550px) {
-                    .opening-hours-h {
-                        margin-left: 5%;
-                    }}
-                @media (min-width: 1600px) {
-                    .opening-hours-h {
-                        margin-left: 10%; 
-                    }}
-                    @media (min-width: 1700px) {
-                        .opening-hours-h {
-                            margin-left: 10%; 
-                        }} */
 
 .opening-time {
     min-width: 110px;
     white-space: nowrap;
+}
+
+.h-blue {
+    color: #00337E;
+}
+
+.visit-location-text {
+    max-width: 900px;
+    padding-right: 4rem;
 }
 
     @media (max-width: 330px) {
@@ -398,6 +371,11 @@ body {
             display: grid;
             grid-template-areas: "img contact"
                                  "text text";
+        }
+        .visit-contact-location-wrap {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
         }}
 
     @media (min-width: 1000px) {
