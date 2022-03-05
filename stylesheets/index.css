@@ -294,7 +294,7 @@ body {
 
 .visit-h-time-container {
     display: grid;
-    grid-template-areas: "h1 hours";
+    grid-template-areas: "h1 p";
     color: #00337E;
     font-size: clamp(0.5rem, 3vw, 1.5rem);
     position: relative;
@@ -303,22 +303,29 @@ body {
 .opening-hours {
     display: flex;
     font-family: 'transducer', sans-serif;
+    grid-area: p;
+    justify-content: end;
 }
 .opening-hours-h {
     transform: rotate(90deg);
-    float: left;
-    margin-left: -35%;
-    margin-top: 2rem;
     white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    margin-bottom: 55%;
+    margin-top: -10%;
+    margin-left: 5%;
+    padding-left: 25%;
 }
-@media (min-width: 1200px) {
+/* @media (max-width: 900px) {
     .opening-hours-h {
-        margin-left: -15%;
+        margin-left: 0;
+        padding-left: 0;
     }}
-     @media (min-width: 1300px) {
+     @media (max-width: 800px) {
         .opening-hours-h {
-            margin-left: -10%;
-            margin-top: 3rem;
+            margin-left: 0;
+            margin-top: 5%;
+            padding-left: 0;
          }}
         @media (min-width: 1400px) {
             .opening-hours-h {
@@ -330,7 +337,7 @@ body {
                 }}
                 @media (min-width: 1550px) {
                     .opening-hours-h {
-                        margin-left: 5%;/* what is happening here? stops working*/
+                        margin-left: 5%;
                     }}
                 @media (min-width: 1600px) {
                     .opening-hours-h {
@@ -339,11 +346,10 @@ body {
                     @media (min-width: 1700px) {
                         .opening-hours-h {
                             margin-left: 10%; 
-                        }}
+                        }} */
 
 .opening-time {
     min-width: 110px;
-    margin-left: 45%;
     white-space: nowrap;
 }
 
