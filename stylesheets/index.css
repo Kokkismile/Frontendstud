@@ -259,7 +259,7 @@ body {
 /* visit page */
 .h1-visit {
     font-size: clamp(0.5rem, 3vw, 2.5rem);
-    margin: 3rem 0 0 1rem;
+    margin: 1rem 0 0 1rem;
 }
 .visit-grid-container {
     display: grid;
@@ -306,6 +306,7 @@ body {
     grid-area: p;
     justify-content: end;
     margin-right: -10%;
+    padding-bottom: 2rem;
 }
 .opening-hours-h {
     transform: rotate(90deg);
