@@ -265,7 +265,7 @@ body {
     display: grid;
     grid-template-areas: "tesla tesla vr"
                          "lab robot vr";
-    max-height: 600px;
+    max-height: 510px;
     overflow: hidden;
 }
 
