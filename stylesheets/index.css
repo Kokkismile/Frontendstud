@@ -265,7 +265,7 @@ body {
     display: grid;
     grid-template-areas: "tesla tesla vr"
                          "lab robot vr";
-    max-height: 640px;
+    max-height: 600px;
     overflow: hidden;
 }
 
@@ -298,6 +298,7 @@ body {
     color: #00337E;
     font-size: clamp(0.5rem, 3vw, 1.5rem);
     position: relative;
+    max-height: 260px;
 }
 
 .opening-hours {
@@ -306,7 +307,7 @@ body {
     grid-area: p;
     justify-content: end;
     margin-right: -10%;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1rem;
 }
 .opening-hours-h {
     transform: rotate(90deg);
