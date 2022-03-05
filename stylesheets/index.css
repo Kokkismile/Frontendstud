@@ -59,7 +59,6 @@ body {
     font-weight: 500;
     font-style: normal;
     display: block;
-    /* font-size: 2.1rem; */
     font-size: clamp(0.4rem, 4.5vw, 2.1rem);
     padding-top: 0.2rem;
 }
@@ -67,7 +66,6 @@ body {
 .h-two-fonts {
     font-family: 'transducer', sans-serif;
     font-weight: 400;
-    /* font-size: 1.2rem; */
     font-size: clamp(0.2rem, 3vw, 1.2rem);
     color: #272C32;
 }
@@ -113,7 +111,7 @@ body {
 .img-auto-scale {
     height: auto;
     width: 100%;
-    vertical-align: bottom;/* why does it only work on box2?? */
+    vertical-align: bottom;
 }
 
 .button1 {
@@ -134,7 +132,7 @@ body {
 .button2 {
     display: inline-block;
     background-color: #EEF5FF;
-    border: solid 2px #272C32/* #00337E */;
+    border: solid 2px #272C32;
     color: black;
     font-weight: 300;
     font-size: 1rem;
