@@ -237,7 +237,7 @@ body {
 .courses-h1 {
     position: absolute;
     font-family: 'cormorant-garamond', serif, sans-serif;
-    font-size: clamp(1.5rem, 3vw, 4rem);
+    font-size: clamp(1.1rem, 3vw, 4rem);
     top: 60%;
     left: 50%;
     transform: translate(-50%, -40%);
