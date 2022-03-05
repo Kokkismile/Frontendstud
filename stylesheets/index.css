@@ -305,6 +305,7 @@ body {
     font-family: 'transducer', sans-serif;
     grid-area: p;
     justify-content: end;
+    margin-right: -10%;
 }
 .opening-hours-h {
     transform: rotate(90deg);
